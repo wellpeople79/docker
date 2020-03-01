@@ -24,3 +24,9 @@ Docker를 종료시킵니다.
 
 6. docker ps -a: 
 현재 도커 머신에 존재하는 컨테이너를 출력함.
+
+7. docker pull:
+image를 다운로드함.
+
+8. docker run:
+container 실행함.
