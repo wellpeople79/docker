@@ -18,3 +18,9 @@
 
 4. docker-machine stop:
 Docker를 종료시킵니다.
+
+5. docker images:
+현재 도커 머신에 존재하는 이미지 목록을 출력함.
+
+6. docker ps -a: 
+현재 도커 머신에 존재하는 컨테이너를 출력함.
