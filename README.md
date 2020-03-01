@@ -34,3 +34,7 @@ container 실행함.
 9. mysql 실행:
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
 
+10. mysql container에서 mysql shell 실행
+docker exec -it mysql bash
+
+mysql -u root -p
