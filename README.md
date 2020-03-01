@@ -38,3 +38,9 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
 docker exec -it mysql bash
 
 mysql -u root -p
+
+11. ubuntu 실행
+docker run -it ubuntu /bin/bash
+
+ubuntu 버전확인:
+cat /etc/issue
