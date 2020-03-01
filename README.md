@@ -32,4 +32,5 @@ image를 다운로드함.
 container 실행함.
 
 9. mysql 실행:
-docker run mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 --name mysql5 mysql:5.7
+docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
+
