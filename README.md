@@ -51,6 +51,7 @@ docker가 root 계정으로 설치 되었을때
 root 계정이 아닌 계정으로 docker를 실행하면
 에러가 발생함.
 
+
 아래의 명령어 수행 후 재로인하면 사용가능함.
 
 $ sudo usermod -a -G docker $USER
