@@ -48,6 +48,7 @@ cat /etc/issue
 
 
 docker root사용자 아닌경우 설정방법
+-
   docker가 root 계정으로 설치 되었을때 
   root 계정이 아닌 계정으로 docker를 실행하면 에러가 발생함.
 
