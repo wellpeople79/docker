@@ -54,8 +54,22 @@ docker root사용자 아닌경우 설정방법
   
   root 계정이 아닌 계정으로 docker를 실행하면 에러가 발생함.
 
-
 아래의 명령어 수행 후 재로인하면 사용가능함.
+-
 
 $ sudo usermod -a -G docker $USER
 $ sudo service docker restart
+
+docker 컨테이너 생성방법
+-
+  docker run -i -t ubuntu:14.04
+
+-i: 상호입출력
+
+-t: tty 활성화해서 배시(bash) 셸을 사용옵션
+
+컨테어너 내부에서 나가는방법
+-
+exit, Ctrl + D -> 컨테이너를 나오면서 컨테이너도 정지시킴.
+
+Ctrl + P, Q -> 컨테이너의 셸에서만 빠져나오고 컨테이너는 실행중임.
