@@ -84,7 +84,5 @@ docker system prune
 Clean your system by removing container and images
 
 $ docker rm $(docker ps -aq)
-This will remove containers
 
 $ docker rmi $(docker images -q)
-This will remove the images
