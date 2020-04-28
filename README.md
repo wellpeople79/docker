@@ -73,3 +73,18 @@ docker 컨테이너 생성방법
 exit, Ctrl + D -> 컨테이너를 나오면서 컨테이너도 정지시킴.
 
 Ctrl + P, Q -> 컨테이너의 셸에서만 빠져나오고 컨테이너는 실행중임.
+
+
+docker run 오류발생 해결법
+---------------------------
+docker: failed to register layer: Error processing tar file(exit status 1): write /lib/udev/hwdb.bin: no space left on device.
+clean up space by using
+docker system prune
+
+Clean your system by removing container and images
+
+$ docker rm $(docker ps -aq)
+This will remove containers
+
+$ docker rmi $(docker images -q)
+This will remove the images
